@@ -1,0 +1,9 @@
+/* navbar */
+.navbar{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(220px,auto));
+    gap: 1.5rem;
+}
+.logo{
+    height: 1rem;
+}
