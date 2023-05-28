@@ -13,12 +13,13 @@
 
 <body>
     <h1>Hello</h1>
-    <ul>
-        <div th:each="items : ${item}">
-        <li th:text="${items.name}"></li>
-        <li th:text="${items.price}"></li>
+    <div th:each="items : ${item}">
+        <ul>
+            <li th:text="${items.name}"></li>
+            <li th:text="${items.price}"></li>
+
+        </ul>
     </div>
-    </ul>
 </body>
 
 </html>
