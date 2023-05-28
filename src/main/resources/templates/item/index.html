@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="https://www.thymeleaf.org">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <ul>
+        <div th:each="items : ${item}">
+        <li th:text="${items.name}"></li>
+        <li th:text="${items.price}"></li>
+    </div>
+    </ul>
+</body>
+
+</html>
